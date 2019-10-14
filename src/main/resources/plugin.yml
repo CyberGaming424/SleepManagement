@@ -1,0 +1,8 @@
+name: SleepManagement
+version: ${project.version}
+main: com.cybermcplugins.sleepmanagement.SleepManagement
+api-version: 1.13
+description: Allows players to set day if not all players are sleeping
+commands:
+  sleep:
+    description: If a player is in a bed and a player uses this command the time sets to day.

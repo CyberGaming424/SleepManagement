@@ -1,2 +1,2 @@
 # SleepManagement
-A Spigot sleep managment plugin
+ A Sleep Management Spigot plugin
