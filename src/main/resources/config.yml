@@ -1,0 +1,7 @@
+# You may either use a percent of the players or a number of players
+# If true you will use a percent
+usePercent: false
+# Must be between 0-100
+percent: 0
+# If the usePercent is false use the number
+amount: 0

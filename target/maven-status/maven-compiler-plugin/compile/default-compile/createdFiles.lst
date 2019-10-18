@@ -1,4 +1,5 @@
-com\cybermcplugins\sleepmanagement\SleepManagement.class
 com\cybermcplugins\sleepmanagement\listeners\GetsUp.class
+com\cybermcplugins\sleepmanagement\commands\BroadCastCommand.class
+com\cybermcplugins\sleepmanagement\SleepManagement.class
 com\cybermcplugins\sleepmanagement\commands\Sleep.class
 com\cybermcplugins\sleepmanagement\listeners\LaysDown.class

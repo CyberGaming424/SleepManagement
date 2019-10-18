@@ -12,9 +12,11 @@ import org.bukkit.entity.Player;
 public class Sleep implements CommandExecutor {
 
     private SleepManagement sleep;
+    private boolean usePercent;
 
-    public Sleep(SleepManagement sleep){
+    public Sleep(SleepManagement sleep, boolean usePercent){
         this.sleep = sleep;
+        this.usePercent = usePercent;
     }
 
     @Override
@@ -23,9 +25,11 @@ public class Sleep implements CommandExecutor {
         if(sender instanceof Player) {
             Player player = (Player) sender;
             World world = player.getWorld();
+            sleep.getWantsDay().add(player.getUniqueId());
             if (world.getTime() >= 12769) {
                 if (sleep.getWantsDay().size() >= 1) {
                     world.setTime(6000);
+                    sleep.clearWantsDay();
                 } else
                     Bukkit.broadcastMessage(ChatColor.BOLD.GRAY + "[" + ChatColor.GREEN + "SleepManagement" + ChatColor.BOLD.GRAY + "] "
                             + ChatColor.BOLD + player.getDisplayName() + " wants day. Either two people find a bed or" +
