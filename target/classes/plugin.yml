@@ -1,5 +1,5 @@
 name: SleepManagement
-version: 2.0-SNAPSHOT
+version: 3.0-SNAPSHOT
 main: com.cybermcplugins.sleepmanagement.SleepManagement
 api-version: 1.13
 description: Allows players to set day if not all players are sleeping

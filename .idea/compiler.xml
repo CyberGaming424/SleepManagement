@@ -9,8 +9,5 @@
         <module name="SleepManagement" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SleepManagement" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
