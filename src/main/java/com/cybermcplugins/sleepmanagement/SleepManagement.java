@@ -32,10 +32,7 @@ public final class SleepManagement extends JavaPlugin {
     public ArrayList<UUID> getWantsDay(){return wantsDay;}
 
     public void clearWantsDay() {
-        this.getLogger().info("Before: " + wantsDay.toString());
         wantsDay = new ArrayList<>();
-
-        this.getLogger().info("After: " + wantsDay.toString());
     }
     public double getPercentOfPlayers() {
         if(this.getConfig().getDouble("percent") == 0){
