@@ -3,6 +3,7 @@ package com.cybermcplugins.sleepmanagement;
 import com.cybermcplugins.sleepmanagement.commands.Sleep;
 import com.cybermcplugins.sleepmanagement.listeners.GetsUp;
 import com.cybermcplugins.sleepmanagement.listeners.LaysDown;
+import com.cybermcplugins.sleepmanagement.listeners.PlayerLeaves;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -16,14 +17,16 @@ public final class SleepManagement extends JavaPlugin {
     private ArrayList<UUID> wantsDay = new ArrayList<>();
 
 
+
     @Override
     public void onEnable() {
 
         this.getConfig().options().copyDefaults();
         saveDefaultConfig();
 
-        Bukkit.getPluginManager().registerEvents(new LaysDown(this, this.getConfig().getBoolean("usePercent")), this);
+        Bukkit.getPluginManager().registerEvents(new LaysDown(this), this);
         Bukkit.getPluginManager().registerEvents(new GetsUp(this), this);
+        Bukkit.getPluginManager().registerEvents(new PlayerLeaves(this), this);
         Objects.requireNonNull(getCommand("sleep")).setExecutor(new Sleep(this));
         this.getLogger().info("Percent of players required: " + getPercentOfPlayers());
 

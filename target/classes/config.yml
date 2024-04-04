@@ -1,4 +1,0 @@
-# Change to the percent of active players who must agree to make it day
-# Value must be between 0-100. It is recommended to use multiples of 25
-# If value is 0 then the plugin will default to 100
-percent: 0.0

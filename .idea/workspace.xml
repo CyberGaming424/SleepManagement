@@ -7,10 +7,23 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/commands/BroadCastCommand.java" line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68706957-19c7-43e4-a670-44ddddc71487" name="Default Changelist" comment="Removed logging. Added PlayerLeaves server event to remove players from wantsDay">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/PlayerLeaves.java" afterDir="false" />
+    <list default="true" id="68706957-19c7-43e4-a670-44ddddc71487" name="Default Changelist" comment="Fixed bugs and updated to 1.20.4">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/SleepManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/SleepManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/commands/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/commands/Sleep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/LaysDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/LaysDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/PlayerLeaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/PlayerLeaves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cybermcplugins/sleepmanagement/SleepManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cybermcplugins/sleepmanagement/commands/Sleep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cybermcplugins/sleepmanagement/listeners/GetsUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cybermcplugins/sleepmanagement/listeners/LaysDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,10 +249,14 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/VerifyBot&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -292,7 +309,11 @@
       <workItem from="1697777066334" duration="980000" />
       <workItem from="1697811299889" duration="4286000" />
       <workItem from="1697824799814" duration="286000" />
-      <workItem from="1697916447149" duration="372000" />
+      <workItem from="1697916447149" duration="3166000" />
+      <workItem from="1697949774893" duration="599000" />
+      <workItem from="1698416740225" duration="83000" />
+      <workItem from="1712205846116" duration="526000" />
+      <workItem from="1712206874940" duration="3318000" />
     </task>
     <task id="LOCAL-00001" summary="Updated for 1.20.2. Got the plugin to full workability.">
       <option name="closed" value="true" />
@@ -310,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697814381671</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Removed logging. Added PlayerLeaves server event to remove players from wantsDay">
+      <option name="closed" value="true" />
+      <created>1697916823315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697916823315</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -346,10 +375,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated for 1.20.2. Got the plugin to full workability." />
     <MESSAGE value="Removed logging. Added PlayerLeaves server event to remove players from wantsDay" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed logging. Added PlayerLeaves server event to remove players from wantsDay" />
+    <MESSAGE value="Fixed bugs and updated to 1.20.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs and updated to 1.20.4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
