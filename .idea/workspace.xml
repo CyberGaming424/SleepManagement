@@ -8,22 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68706957-19c7-43e4-a670-44ddddc71487" name="Default Changelist" comment="Fixed bugs and updated to 1.20.4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/commands/SleepTab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/SleepManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/SleepManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/commands/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/commands/Sleep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/GetsUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/GetsUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/LaysDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/LaysDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/PlayerLeaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/PlayerLeaves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cybermcplugins/sleepmanagement/SleepManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cybermcplugins/sleepmanagement/commands/Sleep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cybermcplugins/sleepmanagement/listeners/GetsUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cybermcplugins/sleepmanagement/listeners/LaysDown.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +307,10 @@
       <workItem from="1697949774893" duration="599000" />
       <workItem from="1698416740225" duration="83000" />
       <workItem from="1712205846116" duration="526000" />
-      <workItem from="1712206874940" duration="3318000" />
+      <workItem from="1712206874940" duration="4208000" />
+      <workItem from="1712262084710" duration="2723000" />
+      <workItem from="1712277527782" duration="1662000" />
+      <workItem from="1712761385666" duration="7051000" />
     </task>
     <task id="LOCAL-00001" summary="Updated for 1.20.2. Got the plugin to full workability.">
       <option name="closed" value="true" />
@@ -339,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697916823315</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed bugs and updated to 1.20.4">
+      <option name="closed" value="true" />
+      <created>1712210207147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712210207147</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">

@@ -20,6 +20,9 @@ public class GetsUp implements Listener {
     public void getsUP(PlayerBedLeaveEvent e){
         Player player = e.getPlayer();
         sleep.getWantsDay().remove(player.getUniqueId());
+        if(sleep.getWantsDay().isEmpty()){
+            sleep.cancelActionBar();
+        }
     }
 
 }
