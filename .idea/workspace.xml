@@ -7,12 +7,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/commands/BroadCastCommand.java" line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68706957-19c7-43e4-a670-44ddddc71487" name="Default Changelist" comment="Fixed bugs and updated to 1.20.4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/SleepManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/SleepManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/commands/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/commands/Sleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
-    </list>
+    <list default="true" id="68706957-19c7-43e4-a670-44ddddc71487" name="Default Changelist" comment="Official 4.0 release with all features works as wanted.&#10;Added:&#10;*Permissions&#10;*Action Bar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -308,7 +303,7 @@
       <workItem from="1712849429114" duration="712000" />
       <workItem from="1713157571192" duration="15000" />
       <workItem from="1721495532227" duration="213000" />
-      <workItem from="1721495753689" duration="2997000" />
+      <workItem from="1721495753689" duration="3547000" />
     </task>
     <task id="LOCAL-00001" summary="Updated for 1.20.2. Got the plugin to full workability.">
       <option name="closed" value="true" />
@@ -342,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712210207147</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Official 4.0 release with all features works as wanted.&#10;Added:&#10;*Permissions&#10;*Action Bar">
+      <option name="closed" value="true" />
+      <created>1721499618629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721499618630</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -393,7 +396,8 @@
     <MESSAGE value="Updated for 1.20.2. Got the plugin to full workability." />
     <MESSAGE value="Removed logging. Added PlayerLeaves server event to remove players from wantsDay" />
     <MESSAGE value="Fixed bugs and updated to 1.20.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs and updated to 1.20.4" />
+    <MESSAGE value="Official 4.0 release with all features works as wanted.&#10;Added:&#10;*Permissions&#10;*Action Bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Official 4.0 release with all features works as wanted.&#10;Added:&#10;*Permissions&#10;*Action Bar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
