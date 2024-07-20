@@ -8,15 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68706957-19c7-43e4-a670-44ddddc71487" name="Default Changelist" comment="Fixed bugs and updated to 1.20.4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/commands/SleepTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/SleepManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/SleepManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/commands/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/commands/Sleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/GetsUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/GetsUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/LaysDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/LaysDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/PlayerLeaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cybermcplugins/sleepmanagement/listeners/PlayerLeaves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,6 +305,10 @@
       <workItem from="1712262084710" duration="2723000" />
       <workItem from="1712277527782" duration="1662000" />
       <workItem from="1712761385666" duration="7051000" />
+      <workItem from="1712849429114" duration="712000" />
+      <workItem from="1713157571192" duration="15000" />
+      <workItem from="1721495532227" duration="213000" />
+      <workItem from="1721495753689" duration="2997000" />
     </task>
     <task id="LOCAL-00001" summary="Updated for 1.20.2. Got the plugin to full workability.">
       <option name="closed" value="true" />

@@ -47,7 +47,7 @@ public final class SleepManagement extends JavaPlugin {
         wantsDay = new ArrayList<>();
     }
     public double getPercentOfPlayers() {
-        if(this.getConfig().getDouble("percent") == 0){
+        if(this.getConfig().getDouble("percent") == -1){
             return 100;
         }else{
             return this.getConfig().getDouble("percent");
@@ -67,7 +67,7 @@ public final class SleepManagement extends JavaPlugin {
             actionBarTask = Bukkit.getScheduler().runTaskTimer(this, ()->{
                 Bukkit.getOnlinePlayers().forEach(player1 -> {
                     player1.spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent.fromLegacy(String.valueOf(getWantsDay().size())+
-                            "/"+ Math.floor((getPercentOfPlayers()/100)*Bukkit.getOnlinePlayers().size())));
+                            "/"+ (int)Math.round((getPercentOfPlayers()/100)*Bukkit.getOnlinePlayers().size()) + " players sleeping"));
                 });
             },0, 40);
         }
